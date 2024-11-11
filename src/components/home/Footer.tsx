@@ -16,7 +16,7 @@ export default function Footer() {
     <footer className="flex flex-col py-10 px-16 bg-secondary rounded-t-2xl text-accent w-full mt-10 gap-10">
       <div className="flex justify-between items-center">
         <Image
-          src="/assets/logo-white.svg"
+          src="/assets/Logo-white.svg"
           alt="Logo"
           width={200}
           height={200}
