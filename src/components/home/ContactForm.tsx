@@ -7,7 +7,7 @@ export default function ContactForm() {
   const [isHiSelected, setIsHiSelected] = useState(true);
   const [isQuoteSelected, setIsQuoteSelected] = useState(false);
 
-  const handleChange = (e) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, checked } = e.target;
     console.log(name, checked);
     if (name === "hi" && checked === true) {
@@ -19,10 +19,9 @@ export default function ContactForm() {
     }
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log("Form submitted");
-    console.log(e.target.hi.checked, e.target.quote.checked);
   };
 
   return (
