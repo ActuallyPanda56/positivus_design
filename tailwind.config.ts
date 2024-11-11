@@ -11,7 +11,13 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "var(--primary)",
+        secondary: "var(--secondary)",
+        accent: "var(--accent)",
       },
+    },
+    fontFamily: {
+      spaceGrotesk: ["var(--font-space-grotesk)", "sans-serif"],
     },
   },
   plugins: [],
