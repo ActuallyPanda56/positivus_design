@@ -9,42 +9,42 @@ const team = [
     role: "CEO and Founder",
     testimonial:
       "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
-    image: "/assets/team/johnSmith.png",
+    image: "/assets/Team/johnSmith.png",
   },
   {
     name: "Jane Doe",
     role: "Director of Operations",
     testimonial:
       "7+ years of experience in project management and team leadership. Strong organizational and communication skills",
-    image: "/assets/team/janeDoe.png",
+    image: "/assets/Team/janeDoe.png",
   },
   {
     name: "Michael Brown",
     role: "Senior SEO Specialist",
     testimonial:
       "5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization",
-    image: "/assets/team/michaelBrown.png",
+    image: "/assets/Team/michaelBrown.png",
   },
   {
     name: "Emily Johnson",
     role: "PPC Manager",
     testimonial:
       "3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis",
-    image: "/assets/team/emilyJohnson.png",
+    image: "/assets/Team/emilyJohnson.png",
   },
   {
     name: "Brian Williams",
     role: "Social Media Specialist",
     testimonial:
       "4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement",
-    image: "/assets/team/brianWilliams.png",
+    image: "/assets/Team/brianWilliams.png",
   },
   {
     name: "Sarah Kim",
     role: "Content Creator",
     testimonial:
       "2+ years of experience in writing and editing. Skilled in creating compelling, SEO-optimized content for various industries",
-    image: "/assets/team/sarahKim.png",
+    image: "/assets/Team/sarahKim.png",
   },
 ];
 
